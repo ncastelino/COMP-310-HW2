@@ -1,6 +1,11 @@
 
   section .text  ;
 
+ global _start
+ extern main   ; DECLARE MAIN
+ _start:
+     call main ;
+
 ; puts
 ;
 ;  |------------------|
