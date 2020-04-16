@@ -1,5 +1,5 @@
 
-  section .text  ;
+  section .text   ;
 
  global _start
  extern main   ; 
