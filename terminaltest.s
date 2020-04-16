@@ -2,7 +2,7 @@
   section .text  ;
 
  global _start
- extern main   ; DECLARE MAIN
+ extern main   ; 
  _start:
      call main ;
 
